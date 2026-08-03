@@ -10,14 +10,21 @@
   },
   "dependencies": {
     "@mzad/design-tokens": "workspace:*",
+<<<<<<< HEAD
+=======
     "@vitejs/plugin-react": "^6.0.5",
+>>>>>>> main
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
     "@types/react": "^19.1.16",
     "@types/react-dom": "^19.1.9",
+<<<<<<< HEAD
+    "@vitejs/plugin-react": "^6.0.5",
+=======
     "@vitejs/plugin-react": "^7.0.0",
+>>>>>>> main
     "vite": "^7.2.4"
   }
 }
