@@ -104,7 +104,7 @@ export default function RequestDetails() {
                 width: 14,
                 height: 14,
                 borderRadius: 7,
-                backgroundColor = i === 0 || list.length > 0 ? theme.primary : theme.border,
+                backgroundColor: i === 0 || list.length > 0 ? theme.primary : theme.border,
               }}
             />
             <Text style={{ color: theme.text, textAlign: 'right' }}>{s}</Text>
