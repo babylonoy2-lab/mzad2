@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "مزاد الصيانة لمقدمي الخدمة",
+    "slug": "mzad-al-siyana-provider",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "mzadsiyana-provider",
+    "userInterfaceStyle": "light",
+    "plugins": ["expo-router"],
+    "experiments": { "typedRoutes": true },
+    "extra": { "supportsRTL": true }
+  }
+}
