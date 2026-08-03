@@ -5,7 +5,7 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "scheme": "mzadsiyana-customer",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "plugins": ["expo-router"],
     "experiments": { "typedRoutes": true },
     "extra": { "supportsRTL": true }
