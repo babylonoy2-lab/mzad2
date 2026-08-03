@@ -1,0 +1,13 @@
+:root {
+  --color-background: #f6f8fb;
+  --color-surface: #fff;
+  --color-ink: #102a43;
+  --color-muted: #52667a;
+  --color-border: #dce4ec;
+  --color-accent: #b76d10;
+  --color-success: #18794e;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+}
