@@ -1,0 +1,41 @@
+export const palettes = {
+  light: {
+    primary: '#176B62',
+    primarySoft: '#DDF2EE',
+    secondary: '#E59B35',
+    background: '#F5F7F6',
+    surface: '#FFFFFF',
+    surfaceAlt: '#ECF1EF',
+    text: '#17211F',
+    muted: '#64716E',
+    border: '#D8E0DE',
+    success: '#248A5A',
+    warning: '#C47A13',
+    error: '#C74444',
+    info: '#3679B5',
+    overlay: 'rgba(15,28,25,.48)',
+  },
+  dark: {
+    primary: '#64C7B9',
+    primarySoft: '#163E39',
+    secondary: '#F1B45F',
+    background: '#0E1715',
+    surface: '#172421',
+    surfaceAlt: '#21312D',
+    text: '#F0F5F3',
+    muted: '#A9B8B4',
+    border: '#31443F',
+    success: '#63C88F',
+    warning: '#F1B45F',
+    error: '#F07878',
+    info: '#73AEE1',
+    overlay: 'rgba(0,0,0,.7)',
+  },
+} as const;
+export type Theme = (typeof palettes)[keyof typeof palettes];
+export const ui = {
+  radius: { sm: 10, md: 16, lg: 24 },
+  spacing: { xs: 4, sm: 8, md: 16, lg: 24, xl: 32 },
+  font: { sm: 13, md: 16, lg: 20, xl: 28 },
+  buttonHeight: 52,
+} as const;
